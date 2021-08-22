@@ -7,7 +7,7 @@ title: HE
 
 <ul>
 {% for page in site.pages %}
-  {% if page.dir == "/he/" %}
+  {% if page.dir == "/post/he/" %}
     <li> <a href="{{ page.url | relative_url }}">{{ page.title }}</a> </li>
   {% endif %}
 {% endfor %}
