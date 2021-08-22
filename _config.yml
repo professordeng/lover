@@ -1,0 +1,25 @@
+title: Lover                      # title of the site
+description: Her life in my eyes  # description of the site
+url: https://professordeng.com    # domain
+baseurl: "/lover"                 # root directory
+
+# Path of site resources
+img: /lover/assets/img
+css: /lover/assets/css
+
+email: professordeng@qq.com
+
+socials:
+- name: github
+  url: https://github.com/professordeng
+- name: twitter
+  url: https://twitter.com/whenfung
+
+
+nav:
+- name: WE
+  path: /
+- name: SHE
+  path: /pages/she.html
+- name: HE
+  path: /pages/he.html
