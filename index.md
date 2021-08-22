@@ -1,13 +1,13 @@
 ---
 layout: page
-title: SHE
+title: WE
 ---
 
-这是她的页面。
+这是我们的网站。
 
 <ul>
 {% for page in site.pages %}
-  {% if page.dir == "/she/" %}
+  {% if page.dir == "/we/" %}
     <li> <a href="{{ page.url | relative_url }}">{{ page.title }}</a> </li>
   {% endif %}
 {% endfor %}
